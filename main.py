@@ -19,7 +19,9 @@ def turn_right():
 
 def clear_screen():
     tim.clear()
-
+    tim.penup()
+    tim.home() #moves the Turtle to the original position: 0.00
+    tim.pendown()
 
 
 
